@@ -1,24 +1,51 @@
-from django.contrib import sitemaps
+from django.contrib.sitemaps import Sitemap
 from django.urls import reverse
+from visaPage.models import SubVisa
+from blog.models import Blog
 
-class staticviewsSitemap(sitemaps.sitemap):
+class Static_Sitemap(Sitemap):
 
-    priority = 0.5
-    changefreq = "weekly"
+    priority = 0.80
+    changefreq = 'weekly'
 
     def items(self):
+        return ['visa','about','blog','login','register']
 
-        return [
+    def location(self, item):
+        return reverse(item)
 
-            'visaPage:home',
-            'visaPage:about',
-            'visaPage:conatct',
-            'visapage:blog',
-            'visapage:media',
+class Static_Sitemap2(Sitemap):
 
+    priority = 0.64
+    changefreq = 'weekly'
 
-        ]
+    def items(self):
+        return SubVisa.objects.all().order_by('id')
+    
+    def location(self, item):
+        return reverse('subvisa', args=[item.visa.slug])
 
-def location(self, item):
-    return reverse(item)
+class Static_Sitemap3(Sitemap):
 
+    priority = 0.64
+    changefreq = 'weekly'
+
+    def items(self):
+        return Blog.objects.all().order_by('id')
+    
+    def location(self, item):
+        return reverse('blog_content', args=[item.slug])
+    
+    def lastmod(self, item):
+        return item.modified_date
+
+class Static_Sitemap4(Sitemap):
+
+    priority = 1.0
+    changefreq = 'weekly'
+
+    def items(self):
+        return ['home']
+
+    def location(self, item):
+        return reverse(item)

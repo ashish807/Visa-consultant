@@ -37,8 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sitemaps'
-    'django.contrib.sitemaps'
     'navFooterContent',
     'accounts',
     'landingPage',
@@ -47,10 +45,12 @@ INSTALLED_APPS = [
     'about',
     'blog',
     'embed_video',
-    'admin_honeypot',    
+    'admin_honeypot',   
+    'django.contrib.sitemaps',
+    'django.contrib.sites'
 ]
 
-SITE_ID = 1
+SITE_ID = 2
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
