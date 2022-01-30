@@ -18,6 +18,19 @@ from django.urls import path,include
 from . import views
 from django.conf.urls.static import static
 from django.conf import settings
+from visaPage.sitemaps import Static_Sitemap, Static_Sitemap2, Static_Sitemap3, Static_Sitemap4
+from django.contrib.sitemaps.views import sitemap
+from django.contrib.sites.models import Site
+
+
+
+
+sitemaps = {
+    'sitemap4': Static_Sitemap4(),
+    'sitemap': Static_Sitemap(),
+    'sitemap2': Static_Sitemap2(),
+    'sitemap3': Static_Sitemap3(),
+}
 
 
 
@@ -29,6 +42,7 @@ urlpatterns = [
     path('about/', include('about.urls')),
     path('blog/', include('blog.urls')),
     path('accounts/', include('accounts.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
     
     
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

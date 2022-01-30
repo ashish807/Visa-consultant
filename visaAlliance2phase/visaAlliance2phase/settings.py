@@ -45,8 +45,12 @@ INSTALLED_APPS = [
     'about',
     'blog',
     'embed_video',
-    'admin_honeypot',    
+    'admin_honeypot',   
+    'django.contrib.sitemaps',
+    'django.contrib.sites'
 ]
+
+SITE_ID = 2
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
