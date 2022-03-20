@@ -1,7 +1,7 @@
-# Byte-compiled / optimized / DLL files
+# Cache
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*~
 
 *.pyc
 *~
@@ -10,4 +10,4 @@ __pycache__/
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+*.sqlite3
