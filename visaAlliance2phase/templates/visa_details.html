@@ -1,5 +1,9 @@
 {% extends 'base.html'%}
 {% load static %}
+{% block extra_meta %}
+	<title>{{meta_title}}</title>
+	<meta name="description" content="{{meta_description}}"/>
+{% endblock extra_meta %}
 
 {%block content %}
 {%if visa_description.top_image%}
