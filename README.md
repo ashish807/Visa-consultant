@@ -1,17 +1,29 @@
 # Visa-consultant
 
 ## Developers Guide
-### Install requirements
-`pip install -r requirements`
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## Follow following four steps to setup the project locally.
+
+### Create new virtual environment
+`python3 -m venv venv`
+
+### Actiate venv requirements
+- For macOs/linux `source venv/bin/activate`
+- For Windows `venv/Scripts\activate.bat`
+
+### Install requirements
+`pip install -r requirements.txt`
+
+### Runserver command locally
+`python3 manage.py runserver`
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 ### Database migration
 `python3 manage.py migrate`
 
 ### Cache table generation
 `python3 manage.py createcachetable`
-
-### Runserver command locally
-`python3 manage.py runserver`
 
 ### Update, Restart the AWS lightsail server
 `sudo sh post_update.sh -l Visa-consultant`
