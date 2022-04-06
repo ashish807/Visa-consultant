@@ -16,7 +16,10 @@
 `pip install -r requirements.txt`
 
 ### Runserver command locally
-`python3 manage.py runserver`
+`python3 manage.py runserver 0:8000`
+
+### Running port
+`http://localhost:8000`
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ### Database migration
 `python3 manage.py migrate`
