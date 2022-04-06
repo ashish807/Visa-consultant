@@ -8,16 +8,15 @@
 ### Create new virtual environment
 `python3 -m venv venv`
 
-### Actiate venv requirements
+### Activate venv requirements
 - For macOs/linux `source venv/bin/activate`
-- For Windows `venv/Scripts\activate.bat`
+- For Windows `venv\Scripts\activate.bat`
 
 ### Install requirements
 `pip install -r requirements.txt`
 
 ### Runserver command locally
 `python3 manage.py runserver`
-
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ### Database migration
 `python3 manage.py migrate`
