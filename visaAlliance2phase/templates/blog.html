@@ -1,5 +1,9 @@
 {%extends 'base.html'%}
 {%load static%}
+{% block extra_meta %}
+	<title>Blog | Visa Alliance</title>
+	<meta name="description" content="Visa Alliance is a team of registered Australian immigration agents and visa consultation agencies serving global clients. We are based in Australia and Nepal and expanding our locations soon."/>
+{% endblock extra_meta %}
 
 {%block content%}
 {%if blog_top.image%}
