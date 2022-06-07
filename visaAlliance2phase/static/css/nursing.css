@@ -227,6 +227,17 @@
     min-height: 100vh;
 }
 
+.form-contatiner {
+    max-height: 114vh !important;
+    overflow: hidden !important
+}
+
+.form {
+    width: 100%;
+    border: none;
+    height: 127vh !important;
+}
+
 @media (max-width: 991.98px) {
     .txt-headline {
         font-family: 'Roboto';
