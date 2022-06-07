@@ -221,7 +221,13 @@
     font-size: 30px;
 }
 
-.formbro {
+.form {
+    width: 100%;
+    border: none;
+    min-height: 100vh;
+}
+
+.form-contatiner {
     max-height: 114vh !important;
     overflow: hidden !important
 }
@@ -232,7 +238,7 @@
     height: 127vh !important;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 991.98px) {
     .txt-headline {
         font-family: 'Roboto';
         font-style: normal;
@@ -310,24 +316,14 @@
         font-size: 18px;
     }
 
-    .formbro {
-        max-height: 109vh !important;
-        overflow: hidden !important;
-    }
-
 }
 
 @media (max-width: 425px) {
-    .formbro {
-        max-height: 109vh !important;
-        overflow: hidden !important;
-    }
-
     .form {
         width: 100%;
         border: none;
         min-height: 154vh;
-
+        overflow: hidden;
     }
 
     .txt-headline {
@@ -401,12 +397,5 @@
         font-size: 18px;
         line-height: 29px;
         color: #000000;
-    }
-}
-
-@media (max-width: 1024px) {
-    .formbro {
-        max-height: 124vh !important;
-        overflow: hidden !important;
     }
 }
