@@ -4,6 +4,9 @@ from landingPage.models import ISlidingImage, IIMobileView, IIIMigrationComplexS
 from landingPage.models import IVMigrationComplexImageSection, VAboutSection, VIAbout_Mission_Vision_Value_Section
 from landingPage.models import  VIIAbout_Us_Question, VIIIAbout_Us_Answer,IXAfterAboutOurCompanySection,XService_Section
 from landingPage.models import XIService_Add_Section, XIIResources_Background_Image_Section, XIIIResources_Description_Section
+
+from django.views.generic import (TemplateView)
+
 #from store.models import Product
 def home(request):
     slide_images = ISlidingImage.objects.all()
@@ -48,3 +51,9 @@ def home(request):
     }
 
     return render(request, 'home.html', context)
+
+
+# Create your views here.
+
+class LandingPage(TemplateView):
+    template_name = "landingpages/landingpage_1.html"

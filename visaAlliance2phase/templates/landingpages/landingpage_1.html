@@ -1,0 +1,221 @@
+{% load i18n static django_bootstrap5 %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#061948">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#061948">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#061948">
+    <!-- <title>Visa Alliance</title> -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="{%static 'images/VisaLogo/logo-.ico'%}">
+    <!-- Main style sheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}"> -->
+    <!--Feature CSS-->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/nursing.css'%}">
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/responsive.css'%}"> -->
+    <!-- responsive style sheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/responsive.css'%}"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+    <script id="anz-snippet" src="https://searchmyanzsco.com.au/js/anzsco_widget.js?key=WUpfB3O0rug="> </script>
+    <!-- End of  SM-ANZSCO Widget script -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- Start of SM-ANZSCO Widget script -->
+    <script id="anz-snippet" src="https://searchmyanzsco.com.au/js/anzsco_widget.js?key=WUpfB3O0rug="> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- End of  SM-ANZSCO Widget script -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199974254-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-199974254-1');
+    </script>
+
+    <script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "Corporation",
+		"name": "Visa Alliance Australia",
+		"alternateName": "VisaAlliance",
+		"url": "https://visaalliance.com.au/",
+		"@id": "https://visaalliance.com.au/#visaalliance",
+		"logo": "https://www.visaalliance.com.au/",
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"contactType": "Contact",
+			"telephone": "+61 2-8957-0827",
+			"email": "admin@visaalliance.com.au"
+		},
+		"sameAs": [
+			"https://www.facebook.com/VisaAllianceAustralia",
+			"https://www.instagram.com/visa_alliance_au/"
+		]
+		}
+	</script>
+
+
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+
+<body>
+    <div class="banner">
+        <img class="img-fluid" src="{% static 'images/nursing/banner.png' %}">
+    </div>
+
+    <div class="container mt-25">
+        <div class="row">
+            <p class="txt-headline">2022 Charles Sturt University - TEQSA Provider Identification: PRV12018 (Australian
+                University). CRICOS
+                Provider: 00005F.</p>
+        </div>
+        <div class="row">
+            <div class="mt-25">
+                <iframe src="https://visaalliance.agentcisapp.com/online-form/csu-nursing-lead-form" frameborder="0"
+                    class="form" onload="window.parent.scrollTo(0,0)"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mt-25">
+                <p class="txt-content">The Bachelor of Nursing from Charles Sturt University has led the way for nurses
+                    for
+                    more than 30 years. Our
+                    undergraduate students are part of the university's proud nursing tradition, joining the ranks of
+                    Charles
+                    Sturt University graduates across Australia who are known for their resilience, versatility and
+                    adaptability. You'll graduate industry-ready and prepared for your role as a registered nurse.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p class="course-highlight text-uppercase">Course highlights</p>
+            <p class="course-highlight-description">Why study a nursing degree with Charles Sturt University? Our
+                accredited course will prepare you for the
+                healthcare workforce, and you'll benefit from our strong industry links and ties to regional and
+                metropolitan communities across New South Wales. Patient care requires a holistic approach, and this
+                course provides you with the theory, skills and understanding you'll need in the workplace.
+            </p>
+        </div>
+        <div class="row mt-25">
+            <div class="col-sm-5">
+                <div class="course-1">
+                    <div class="course-1-txt">
+                        <p>COE FOR</p>
+                        <p> AUD 3,152</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="course-1">
+                    <div class="course-1-txt">
+                        <p>TERM FEE AUD <s class="strike-font">14,696</s> 11,756.8</p>
+                        <p>20% SCHOLARSHIP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-25">
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Study mode
+                </p>
+                <b class="course-txt">On campus</b>
+                <p class="course-txt">Depending on your areas of interest, you may be able to customise your degree</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Campus locations</p>
+                <ul class="list-unstyled course-txt">
+                    <li><b>Albury-Wodonga</b></li>
+                    <li><b>Bathurst</b></li>
+                    <li><b>Port Macquarie</b></li>
+                    <li><b>Wagga Wagga</b></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Duration</p>
+                <p class="course-txt">Full-time: 3.0 years</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Admission information</p>
+                <p class="course-txt"><b>ATAR/SR : 65.00</b></p>
+                <P class="course-txt">Minimum Selection Rank required for consideration.</P>
+                <p class="course-txt"><b>AQF Level : AQF level 7</b></p>
+            </div>
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Session availability</p>
+                <p class="course-txt"><b>Session 1 2023</b></p>
+                <p class="course-txt">Please note: all sessions may not be available at all locations or through all
+                    study modes.</p>
+            </div>
+            <div class="col-sm-4">
+                <p class="highlight-txt"><span style="color: #FF3A63;">|</span>Re: Scholarships</p>
+                <p class="course-txt">The International Student Support scholarship may provide international students
+                    with a 20% fee
+                    reduction</p>
+            </div>
+        </div>
+
+        <div class="row mt-25">
+            <div class="col-sm-12 divider" style="background: #0274BE;">
+                Accreditation: This course has been accredited in accordance with Academic and Research Delegation E1.
+            </div>
+        </div>
+
+        <div class="row mt-25">
+            <div class="col-sm-12 fees-text-title text-uppercase">
+                Fees and course offerings
+            </div>
+            <div class="col-sm-12 fees-text">
+                <p>
+                    Any fees and offerings are correct at the date of publishing. Fees are relevant for the year
+                    selected
+                    only and are subject to change in future years.
+
+                    If you are an international student, find out more about international fees and don’t forget to
+                    apply
+                    for our scholarships. You may also be eligible for a 20 per cent tuition fee scholarship if you're
+                    an
+                    international student studying on campus in 2022.
+                    Additional course-related expenses you may need to consider:
+                </p>
+                <ul>
+                    <li>
+                        <b>Student Services and Amenities Fee (SSAF)</b>
+                    </li>
+                    <li>
+                        <b>Textbooks (you may be able to purchase these second-hand)</b>
+                    </li>
+                    <li>
+                        <b>Travel and accommodation expenses for any workplace learning, field trips or residential
+                            schools</b>
+                    </li>
+                    <li>
+                        <b>Uniforms (e.g. shirts, polo tops, scrubs or overalls)</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

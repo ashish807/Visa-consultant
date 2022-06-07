@@ -13,17 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path,include
-from . import views
-from django.conf.urls.static import static
 from django.conf import settings
-from visaPage.sitemaps import Static_Sitemap, Static_Sitemap2, Static_Sitemap3, Static_Sitemap4
+from django.conf.urls.static import static
+from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.contrib.sites.models import Site
+from django.urls import include, path, re_path
+from visaPage.sitemaps import (Static_Sitemap, Static_Sitemap2,
+                               Static_Sitemap3, Static_Sitemap4)
 
-
-
+from . import views
 
 sitemaps = {
     'sitemap4': Static_Sitemap4(),
@@ -42,7 +41,8 @@ urlpatterns = [
     path('about/', include('about.urls')),
     path('blog/', include('blog.urls')),
     path('accounts/', include('accounts.urls')),
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap')
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
+    re_path(r'^csu-nursing-campaign/$(?i)', views.LandingPage.as_view(), name='nursing_campaign'),
     
     
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
