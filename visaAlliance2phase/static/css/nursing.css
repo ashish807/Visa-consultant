@@ -221,15 +221,10 @@
     font-size: 30px;
 }
 
-.form {
-    width: 100%;
-    border: none;
-    min-height: 100vh;
-}
 
-.form-contatiner {
+.formbro{
     max-height: 114vh !important;
-    overflow: hidden !important
+    overflow: hidden!important;
 }
 
 .form {
@@ -314,6 +309,17 @@
 
     .strike-font {
         font-size: 18px;
+    }
+
+    .formbro{
+        max-height: 109vh !important;
+        overflow: hidden!important;
+    }
+    
+    .form {
+        width: 100%;
+        border: none;
+        height: 127vh !important;
     }
 
 }
