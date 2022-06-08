@@ -16,6 +16,17 @@
     mix-blend-mode: normal;
 }
 
+.font-color-red{
+    color: #FF3A63;
+}
+
+.font-regular{
+    font-size: 22px;
+}
+
+.font-highlight-1{
+    font-size: 25px;
+}
 
 .image-banner {
     /* position: absolute; */
@@ -94,16 +105,15 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 25px;
+    
     line-height: 141.19%;
-    color: #FF3A63;
 }
 
 .txt-content {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    
     line-height: 35px;
 
     color: #000000;
@@ -125,14 +135,13 @@
     font-size: 60px;
     line-height: 72px;
 
-    color: #FF3A63;
 }
 
 .course-highlight-description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    
     line-height: 29px;
 
     color: #000000;
@@ -149,13 +158,12 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    
     line-height: 126.19%;
     /* or 50px */
 
     text-align: center;
 
-    color: #FF3A63;
     padding: 30px;
 
 }
@@ -169,7 +177,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    
     line-height: 35px;
     /* identical to box height */
 
@@ -181,7 +189,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    
     line-height: 29px;
 
     color: #000000;
@@ -191,7 +199,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 141.19%;
     /* or 28px */
 
@@ -208,7 +216,6 @@
     /* identical to box height */
 
 
-    color: #FF3A63;
 
 }
 
@@ -216,7 +223,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    
     line-height: 29px;
 
     color: #000000;
@@ -229,15 +236,14 @@
 
 
 .formbro{
-    max-height: 113vh !important;
+    max-height: 1150px !important;
     overflow: hidden!important;
 }
 
 .form {
     width: 100%;
     border: none;
-    height: 127vh !important;
-}
+    height: 1150px !important;}
 
 @media (max-width: 991.98px) {
     .txt-headline {
@@ -246,7 +252,7 @@
         font-weight: 900;
         font-size: 20px;
         line-height: 141.19%;
-        color: #FF3A63;
+
     }
 
     .txt-content {
@@ -271,7 +277,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 25px;
+        
         line-height: 35px;
         color: #0274BE;
     }
@@ -301,7 +307,7 @@
         font-size: 20px;
         line-height: 126.19%;
         text-align: center;
-        color: #FF3A63;
+
         padding: 30px;
     }
 
@@ -319,24 +325,36 @@
     }
 
     .formbro{
-        max-height: 109vh !important;
+        max-height: 1010px !important;
         overflow: hidden!important;
     }
     
     .form {
         width: 100%;
         border: none;
-        height: 127vh !important;
+        height: 1150px !important;}
+
+    .font-regular{
+        font-size: 18px;
     }
+    
+    .font-highlight-1{
+        font-size: 22px;
+    }
+        
 
 }
 
 @media (max-width: 425px) {
+    .formbro{
+        max-height: 1010px !important;
+        overflow: hidden!important;
+    }
+    
     .form {
         width: 100%;
         border: none;
-        min-height: 154vh;
-    }
+        height: 1150px !important;}
 
     .txt-headline {
         font-family: 'Roboto';
@@ -344,7 +362,7 @@
         font-weight: 900;
         font-size: 18px;
         line-height: 141.19%;
-        color: #FF3A63;
+
     }
 
     .txt-content {
@@ -399,7 +417,7 @@
         font-size: 18px;
         line-height: 126.19%;
         text-align: center;
-        color: #FF3A63;
+
         padding: 30px;
     }
 
@@ -411,4 +429,14 @@
         line-height: 29px;
         color: #000000;
     }
+
+    .font-regular{
+        font-size: 16px;
+    }
+    
+    .font-highlight-1{
+        font-size: 18px;
+    }
+
+    
 }
