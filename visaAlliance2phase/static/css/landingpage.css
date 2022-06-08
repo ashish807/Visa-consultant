@@ -143,7 +143,8 @@
 
 }
 
-.course-highlight-description {
+/* .{ text-style-1 text-style-1 text-style-1  */
+.text-style-1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -191,15 +192,6 @@
     color: #0274BE;
 }
 
-.course-txt {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    
-    line-height: 29px;
-
-    color: #000000;
-}
 
 .divider {
     font-family: 'Roboto';
@@ -213,27 +205,14 @@
     color: #FFFFFF;
 }
 
-.fees-text-title {
+.text-style-1-title {
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
     line-height: 72px;
     /* identical to box height */
-
-
-
 }
 
-.fees-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    
-    line-height: 29px;
-
-    color: #000000;
-
-}
 
 .strike-font {
     font-size: 22px;
@@ -250,12 +229,15 @@
     border: none;
     height: 1150px !important;}
 
+.font-regular-min{
+    font-size: 20px;
+}
+
 @media (max-width: 991.98px) {
     .txt-headline {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
-        font-size: 20px;
         line-height: 141.19%;
 
     }
@@ -264,16 +246,14 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
         line-height: 35px;
         color: #000000;
     }
 
-    .course-highlight-description {
+    .text-style-1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
         line-height: 29px;
         color: #000000;
     }
@@ -287,11 +267,10 @@
         color: #0274BE;
     }
 
-    .course-txt {
+    .text-style-1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
         line-height: 29px;
         color: #000000;
     }
@@ -309,21 +288,12 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
         line-height: 126.19%;
         text-align: center;
 
         padding: 30px;
     }
 
-    .fees-text {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 29px;
-        color: #000000;
-    }
 
     .strike-font {
         font-size: 18px;
@@ -354,6 +324,10 @@
     .ml{
         margin-left: 0px;
     }
+
+    .font-regular-min{
+        font-size: 18px;
+    }
         
 
 }
@@ -373,7 +347,6 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
-        font-size: 18px;
         line-height: 141.19%;
 
     }
@@ -382,16 +355,14 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
         line-height: 35px;
         color: #000000;
     }
 
-    .course-highlight-description {
+    .text-style-1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
         line-height: 29px;
         color: #000000;
     }
@@ -403,15 +374,6 @@
         font-size: 20px;
         line-height: 35px;
         color: #0274BE;
-    }
-
-    .course-txt {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 29px;
-        color: #000000;
     }
 
     .divider {
@@ -427,20 +389,22 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
         line-height: 126.19%;
         text-align: center;
 
         padding: 30px;
     }
 
-    .fees-text {
+    .text-style-1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
         line-height: 29px;
         color: #000000;
+    }
+
+    .strike-font {
+        font-size: 14px;
     }
 
     .font-regular{
@@ -457,6 +421,10 @@
 
     .ml{
         margin-left: 0px;
+    }
+    
+    .font-regular-min{
+        font-size: 16px;
     }
     
     

@@ -1,0 +1,127 @@
+{% load i18n static django_bootstrap5 %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#061948">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#061948">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#061948">
+    <!-- <title>Visa Alliance</title> -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="{%static 'images/VisaLogo/logo-.ico'%}">
+    <!-- Main style sheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}"> -->
+    <!--Feature CSS-->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/landingpage.css'%}">
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/responsive.css'%}"> -->
+    <!-- responsive style sheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="{%static 'css/responsive.css'%}"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+    <script id="anz-snippet" src="https://searchmyanzsco.com.au/js/anzsco_widget.js?key=WUpfB3O0rug="> </script>
+    <!-- End of  SM-ANZSCO Widget script -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- Start of SM-ANZSCO Widget script -->
+    <script id="anz-snippet" src="https://searchmyanzsco.com.au/js/anzsco_widget.js?key=WUpfB3O0rug="> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- End of  SM-ANZSCO Widget script -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199974254-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-199974254-1');
+    </script>
+
+    <script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "Corporation",
+		"name": "Visa Alliance Australia",
+		"alternateName": "VisaAlliance",
+		"url": "https://visaalliance.com.au/",
+		"@id": "https://visaalliance.com.au/#visaalliance",
+		"logo": "https://www.visaalliance.com.au/",
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"contactType": "Contact",
+			"telephone": "+61 2-8957-0827",
+			"email": "admin@visaalliance.com.au"
+		},
+		"sameAs": [
+			"https://www.facebook.com/VisaAllianceAustralia",
+			"https://www.instagram.com/visa_alliance_au/"
+		]
+		}
+	</script>
+
+    <title>Bachelor Of SocialWork</title>
+
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+
+<body>
+    <div class="banner">
+        <img class="img-fluid" src="{% static 'images/socialwork/socialwork_banner.png' %}">
+    </div>
+
+    <div class="container mt-3 mb-150">
+        <div class="row mt-3">
+            <div class="col-sm-12">
+                <div class="formbro">
+                    <iframe class="form" src="https://visaalliance.agentcisapp.com/online-form/csu-nursing-lead-form"
+                        frameborder="0" onload="window.parent.scrollTo(0,0)"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="font-regular text-style-1  mt-5">
+            <p>This is course information for enrolled students. For prospective students please
+                visit Bachelor of
+                Social Work.</p>
+            <p>
+                The Bachelor of Social Work is a four-year undergraduate degree that provides an entry-level
+                qualification into the social work profession. Graduates of this course will be competent, effective and
+                reflective, skilled, knowledge-rich, ethically aware and professionally informed practitioners who are
+                ready for practice.</p>
+            <p>
+                Students who initially enrol in the Bachelor of Social Work and want to exit early can do so at the
+                completion of the first two years with an Associate Degree of Human Services.</p>
+        </div>
+        <div class="mt-3">
+            <div class="font-highlight-2 font-color-red course-highlight text-uppercase">
+                Bachelor of Social Work (Honours)
+            </div>
+            <div class="font-regular-min text-style-1">
+                ACAP also offers an embedded Bachelor of Social Work (Honours) which is available for meritorious entry to students enrolled in the Bachelor of Social Work. Students will be invited to apply for entry in the third year of their studies and, if successful, will complete the Honours component in their fourth year. In order to successfully complete the Bachelor of Social Work (Honours) students are required to carry out an independent piece of research and write a minor research thesis.
+            </div>
+        </div>
+        <div class="mt-3">
+            <div class="font-highlight-2 font-color-red course-highlight text-uppercase">
+                Professional Accreditation
+            </div>
+            <div class="font-regular-min text-style-1">
+                The Bachelor of Social Work and Bachelor of Social Work (Honours) are Australian Association of Social Workers (AASW) fully accredited qualifications. They are entry qualifications into the social work profession and have been determined to meet the Australian Social Work Education and Accreditation Standards (ASWEAS).
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

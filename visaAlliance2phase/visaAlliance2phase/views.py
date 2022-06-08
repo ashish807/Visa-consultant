@@ -55,5 +55,11 @@ def home(request):
 
 # Create your views here.
 
-class LandingPage(TemplateView):
-    template_name = "landingpages/landingpage_1.html"
+class LandingNursing(TemplateView):
+    template_name = "landingpages/nursing.html"
+
+class LandingSocialWork(TemplateView):
+    template_name = "landingpages/socialwork.html"
+
+class LandingMastersSocialWork(TemplateView):
+    template_name = "landingpages/masters_socialwork.html"

@@ -42,7 +42,9 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('accounts/', include('accounts.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
-    re_path(r'^csu-nursing-campaign/$(?i)', views.LandingPage.as_view(), name='nursing_campaign'),
+    re_path(r'^csu-nursing-campaign/$(?i)', views.LandingNursing.as_view(), name='nursing_campaign'),
+    re_path(r'^csu-socialwork-campaign/$(?i)', views.LandingSocialWork.as_view(), name='socialwork_campaign'),
+    re_path(r'^csu-masters-socialwork-campaign/$(?i)', views.LandingMastersSocialWork.as_view(), name='master_socialwork_campaign'),
     
     
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
