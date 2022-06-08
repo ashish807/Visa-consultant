@@ -127,10 +127,13 @@
     margin-top: 25px !important;
 }
 
-.mb-25 {
-    margin-bottom: 25px !important;
+.mb-150 {
+    margin-bottom: 150px !important;
 }
 
+.ml{
+    margin-left: 70px;
+}
 
 .course-highlight {
     font-family: 'Bebas Neue';
@@ -448,5 +451,9 @@
         font-size: 30px;
     }
 
+    .ml{
+        margin-left: 0px;
+    }
+    
     
 }
