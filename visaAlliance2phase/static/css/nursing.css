@@ -84,7 +84,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
 
     color: #FFFFFF;
@@ -94,7 +94,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 141.19%;
     color: #FF3A63;
 }
@@ -103,7 +103,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
 
     color: #000000;
@@ -112,6 +112,11 @@
 .mt-25 {
     margin-top: 25px !important;
 }
+
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+
 
 .course-highlight {
     font-family: 'Bebas Neue';
@@ -144,13 +149,14 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 126.19%;
     /* or 50px */
 
     text-align: center;
 
     color: #FF3A63;
+    padding: 30px;
 
 }
 
@@ -163,7 +169,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
     /* identical to box height */
 
@@ -218,12 +224,12 @@
 }
 
 .strike-font {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 
 .formbro{
-    max-height: 114vh !important;
+    max-height: 113vh !important;
     overflow: hidden!important;
 }
 
@@ -296,6 +302,7 @@
         line-height: 126.19%;
         text-align: center;
         color: #FF3A63;
+        padding: 30px;
     }
 
     .fees-text {
@@ -329,7 +336,6 @@
         width: 100%;
         border: none;
         min-height: 154vh;
-        overflow: hidden;
     }
 
     .txt-headline {
@@ -394,6 +400,7 @@
         line-height: 126.19%;
         text-align: center;
         color: #FF3A63;
+        padding: 30px;
     }
 
     .fees-text {
