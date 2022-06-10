@@ -233,6 +233,16 @@
     font-size: 20px;
 }
 
+.form-sw {
+    width: 100%;
+    border: none;
+    height: 1330px !important;
+}
+.formbro-sw {
+    max-height: 1320px !important;
+    overflow: hidden!important;
+}
+
 @media (max-width: 991.98px) {
     .txt-headline {
         font-family: 'Roboto';
@@ -327,6 +337,16 @@
 
     .font-regular-min{
         font-size: 18px;
+    }
+
+    .form-sw {
+        width: 100%;
+        border: none;
+        height: 1330px !important;
+    }
+    .formbro-sw {
+        max-height: 1150px !important;
+        overflow: hidden!important;
     }
         
 
